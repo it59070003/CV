@@ -1,13 +1,126 @@
+/* ###################### body relative ###########################*/
 
-  body {
-    background-color: lavender;
-  }
-  hr {
-    border-style: dotted none none;
-    border-color: lightslategray;
-    border-width: 10px;
-    width: 5%;
-  }
-  h1, h3 {
-      color: #66BFBF;
-  }
+body {
+  background-color: cornsilk;
+  text-align: center;
+  margin: 0;
+  font-family: 'Mali', cursive;
+}
+
+div {
+  position: relative;
+}
+
+h1 {
+  margin: 0 auto;
+  font-family: "VT323", monospace;
+  font-size: 5em;
+  color: #66BFBF;
+}
+h2 {
+  font-family: "VT323", monospace;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: "VT323", monospace,'Mali', cursive;;
+  font-size: 1.5rem;
+  color: #11999E
+}
+
+a {
+  color: #11999E;
+}
+
+hr{
+  border-style: dotted none none;
+  border-color: lightslategray;
+  border-width: 10px;
+  width: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* ###################### class relative ###########################*/
+
+.hilight {
+  text-shadow: 1px 1px 1px lightpink, 2px 2px 2px lightpink;
+  text-decoration: underline;
+}
+
+.sub-tt {
+  font-family: 'Mali', cursive;
+  font-weight: normal;
+}
+
+.img-round {
+  width: 180px;
+  border-radius: 100%;
+  transition: transform 0.2s;
+}
+.img-round:hover {
+  transform: scale(1.3);
+}
+
+.top-container {
+  background-color: mintcream;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding-top: 5%;
+  background-color: cornsilk;
+}
+
+.bottom-container {
+  margin-top: 100px;
+  background-color: lightsalmon;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 10%;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 10%;
+  bottom: 300px;
+}
+
+.ship-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.ship-text {
+  text-align: left;
+}
+
+.tt-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.zb-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: linear-gradient(#11cdd4, #11999e);
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: "VT323", monospace;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(#30e3cb, #2bc4ad);
+}
