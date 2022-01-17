@@ -1,66 +1,50 @@
-/* ###################### body relative ###########################*/
-
 body {
-  background-color: cornsilk;
-  text-align: center;
+  color: black;
   margin: 0;
+  text-align: center;
   font-family: 'Mali', cursive;
-}
-
-div {
-  position: relative;
 }
 
 h1 {
-  margin: 0 auto;
-  font-family: "VT323", monospace;
-  font-size: 5em;
   color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "VT323", monospace;
 }
+
 h2 {
+  color: #66BFBF;
   font-family: "VT323", monospace;
   font-size: 2.5rem;
-  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
-  font-family: "VT323", monospace,'Mali', cursive;;
-  font-size: 1.5rem;
-  color: #11999E
-}
-
-a {
   color: #11999E;
-}
-
-hr{
-  border-style: dotted none none;
-  border-color: lightslategray;
-  border-width: 10px;
-  width: 5%;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-/* ###################### class relative ###########################*/
-
-.hilight {
-  text-shadow: 1px 1px 1px lightpink, 2px 2px 2px lightpink;
-  text-decoration: underline;
-}
-
-.sub-tt {
   font-family: 'Mali', cursive;
-  font-weight: normal;
 }
 
-.img-round {
-  width: 180px;
-  border-radius: 100%;
-  transition: transform 0.2s;
+p {
+  line-height: 2;
 }
-.img-round:hover {
-  transform: scale(1.3);
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Mali', cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 .top-container {
@@ -70,57 +54,110 @@ hr{
 }
 
 .middle-container {
-  padding-top: 5%;
-  background-color: cornsilk;
+  margin: 100px 0;
 }
 
 .bottom-container {
-  margin-top: 100px;
   background-color: lightsalmon;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 10%;
-  top: 50px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 10%;
-  bottom: 300px;
+  padding: 50px 0 20px;
 }
 
 .ship-row {
   width: 50%;
   margin: 100px auto 100px auto;
-}
-
-.ship-text {
   text-align: left;
 }
 
+.pro {
+  text-shadow: 1px 1px 1px lightpink, 2px 2px 2px lightpink;
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
 .tt-img {
+  width: 25%;
   float: left;
   margin-right: 30px;
+  border-radius: 100%;
+  transition: transform 0.2s;
+}
+
+.tt-img:hover {
+	transform: scale(1.3);
 }
 
 .zb-img {
+  width: 25%;
   float: right;
   margin-left: 30px;
+  border-radius: 100%;
+  transition: transform 0.2s;
 }
 
+.zb-img:hover {
+	transform: scale(1.3);
+}
+
+.profile-img {
+  width: 180px;
+  border-radius: 100%;
+  transition: transform 0.2s;
+}
+.profile-img:hover {
+	transform: scale(1.3);
+}
+
+
 .btn {
-  background: #3498db;
-  background-image: linear-gradient(#11cdd4, #11999e);
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
   border-radius: 8px;
+  font-family: 'Mali', cursive;
   color: #ffffff;
-  font-family: "VT323", monospace;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
 .btn:hover {
-  background: #3cb0fd;
-  background-image: linear-gradient(#30e3cb, #2bc4ad);
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
